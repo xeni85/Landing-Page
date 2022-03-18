@@ -1,0 +1,160 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header {
+    background-color: #1F2937;
+    padding: 0 20rem;
+}
+
+.first-part-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.header-links p {
+    margin-right: 1rem;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.second-part-header>div>p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+#logo-img {
+    width: 10rem;
+    height: auto;
+}
+
+#header-button {
+    background-color: #3882F6;
+    border:#3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+}
+
+.second-part-header {
+    display: flex;
+    padding: 5rem 0;
+}
+
+.second-part-header>div>img{
+    width: 40rem;
+    height: 20rem;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.section-1 {
+    padding: 2rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1F2937;
+}
+
+.section-1-imgs {
+    display: flex;
+}
+
+.section-1-imgs>figure>a>img {
+    width: 200px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3882F6;
+}
+
+.section-1-imgs>figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.section-2 {
+    padding: 2rem 20rem;
+    color: #1F3927;
+    font-size: 36px;
+    background-color: #E5E7EB;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote>blockquote {
+    align-self: stretch;
+}
+
+.quote>figcaption {
+    padding-right: 5rem;
+    align-self: flex-end;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.section-3 {
+    align-items: center;
+    display: flex;
+    background-color: #3882F6;
+    margin: 8rem 20rem;
+    justify-content: space-between;
+    padding: 2rem 10rem;
+    border: #3882F6;
+    border-radius: 10px;
+}
+
+.section-3>div>button {
+    background-color: #3882F6;
+    border-width: 2px;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 2rem 0;
+}
